@@ -73,6 +73,10 @@ docker run -v `pwd`/aws:/root/.aws -v `pwd`/reports:/app/reports securityftw/cs-
 docker run -v `pwd`/aws:/root/.aws -v `pwd`/reports:/app/reports securityftw/cs-suite -env aws
 ```
 
+or for windows
+```batch
+docker run -v %cd%\aws:/root/.aws -v  %cd%\reports:/app/reports securityftw/cs-suite -env aws
+```
 
 ### Virtual Environment installation
 (So you don't mess with the already installed python libraries)
